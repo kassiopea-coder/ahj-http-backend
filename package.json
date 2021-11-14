@@ -6,9 +6,7 @@
     "prestart": "npm install",
     "start": "forever server.js",
     "watch": "forever -w server.js",
-    "stop": "forever stopall",
-    "build": "webpack --mode production",
-    "lint": "eslint ."    
+    "stop": "forever stopall"    
   },
   "engines": {
     "node": "12.x"
@@ -38,12 +36,9 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "core-js": "^3.18.1",
-    "forever": "^4.0.1",
-    "koa": "^2.13.4",
-    "koa-body": "^4.2.0",
-    "koa-static": "^5.0.0",
-    "uuid": "^8.3.2"
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0"
   },
   "repository": {
     "type": "git",
