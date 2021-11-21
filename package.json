@@ -12,7 +12,7 @@
   "engines": {
     "node": "12.x"
   },
-  "author": "npeplov",
+  "author": "Nadezhda",
   "license": "ISC",
   "dependencies": {
     "forever": "^3.0.4",
