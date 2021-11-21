@@ -1,25 +1,22 @@
 {
-  "name": "ahj-http-backend",
+  "name": "ahj-http",
   "version": "1.0.0",
+  "description": "HTTP backend",
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
     "start": "forever server.js",
     "watch": "forever -w server.js",
-    "list": "forever list",
     "stop": "forever stopall"
   },
   "engines": {
     "node": "12.x"
   },
-  "author": "Nadezhda",
-  "license": "MIT",
-  
+  "author": "npeplov",
+  "license": "ISC",
   "dependencies": {
     "forever": "^3.0.4",
     "koa": "^2.13.1",
-    "koa-body": "^4.2.0",
-    "koa-router": "^10.0.0",
-    "koa2-cors": "^2.0.6"
-  }  
+    "koa-body": "^4.2.0"
+  }
 }
