@@ -1,2 +1,2 @@
 # ahj-http-backend
-[Ссылка на Heroku](https://dashboard.heroku.com/apps/ahj-http-backend1/logs)
+[Ссылка на Heroku](https://ahj-http-backend1.herokuapp.com/)
